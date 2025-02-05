@@ -1,1 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.stars {
+    color: gold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.random-number {
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: bold;
+    transition: transform 0.5s ease-in-out;
+}
+
+.controls button {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: darkorange;
+}
+
+.range {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.range input {
+    width: 50px;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.history {
+    margin-top: 20px;
+    text-align: left;
+    display: none; /* Скрываем историю по умолчанию */
+}
+
+.history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+    position: relative;
+}
+
+.about-toggle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #555;
+    cursor: pointer;
+    user-select: none;
+}
+
+.custom-numbers {
+    margin-top: 20px;
+    text-align: left;
+    display: none; /* Скрываем блок с заданными числами по умолчанию */
+}
+
+.custom-numbers input {
+    width: 80px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
